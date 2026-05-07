@@ -40,6 +40,6 @@ export const config = {
      * - public files (robots.txt, sitemap.xml, etc.)
      * - auth pages and API
      */
-    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$|login|signup|api/auth).*)',
+    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$|login|signup|api/auth|api/health).*)',
   ],
 };
